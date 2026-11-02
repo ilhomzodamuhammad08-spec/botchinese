@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-red-50/40 text-slate-800 antialiased; }
+:focus-visible { outline: 2px solid #a8841c; outline-offset: 2px; }
+.card { @apply rounded-2xl bg-white shadow-md shadow-red-100 border border-red-100; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2.5 font-semibold transition; }
+.btn-primary { @apply btn bg-red-600 text-white hover:bg-red-700; }
+.btn-ghost { @apply btn border border-red-600 text-red-700 hover:bg-red-100; }
